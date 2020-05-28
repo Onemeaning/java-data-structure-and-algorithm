@@ -85,8 +85,9 @@ public class AboutLinkedListQues {
         HeroNode tempHead = new HeroNode(0,"");
 
         HeroNode next = null;//记录当前节点的后一个节点，以防断链
+
         //方式一：反向遍历
-        System.out.println("==========方向遍历=========");
+        System.out.println("==========反向遍历=========");
         while (cur != null){
 
             next = cur.next;
@@ -193,6 +194,83 @@ public class AboutLinkedListQues {
         return newLinkedList;
 
     }
+
+
+    /**
+     * 判断两个链表是否有环;
+     */
+
+    public static boolean hashCircle(LinkedList linkedList){
+
+        HeroNode fast = linkedList.getHead();
+        HeroNode slow = linkedList.getHead();
+
+        while (slow != null  && fast.next != null){
+
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+
+    /**
+     * 找到存在环的链表的入口点
+     */
+
+    public static HeroNode findLoopStart(LinkedList circleList){
+
+        HeroNode fast = circleList.getHead();
+        HeroNode slow = circleList.getHead();
+
+        while (slow != null && fast.next != null){
+
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast){
+
+                HeroNode head = circleList.getHead();
+                HeroNode pre = slow;
+
+                while (head != head){
+                    head = head.next;
+                    pre = pre.next;
+                }
+
+                return pre;
+            }
+        }
+
+       return null;
+    }
+
+
+    /**
+     * 求链表中环中节点的个数
+     **/
+    public static int getLoopNodeNumbers(LinkedList circleList){
+
+        HeroNode loopStart = AboutLinkedListQues.findLoopStart(circleList);
+        HeroNode curNode = loopStart.next;
+        int resNum = 0;
+        while (curNode != loopStart ){
+
+            curNode = curNode.next;
+            resNum++;
+        }
+
+        return resNum;
+
+    }
+
+
+
 
 
 

@@ -13,23 +13,47 @@ public class LinkedListDemo {
         HeroNode hero7 = new HeroNode(7,"Tom7");
         HeroNode hero8 = new HeroNode(8,"Tom8");
 
+        LinkedList circleList = new LinkedList();
+        circleList.addById(hero1);
+        hero1.next = hero2;
+        hero2.next = hero3;
+        hero3.next = hero4;
+        hero4.next = hero5;
+        hero5.next = hero6;
+        hero6.next = hero7;
+        hero7.next = hero8;
+        hero8.next = hero4;
+//        circleList.list();
 
-        LinkedList linkedList = new LinkedList();
-        linkedList.addById(hero4);
-        linkedList.addById(hero1);
-        linkedList.addById(hero7);
-        linkedList.addById(hero6);
-//      linkedList.addById(hero5);
-        linkedList.list();
+        //判断链表中是否存在环
+        boolean b = AboutLinkedListQues.hashCircle(circleList);
+        System.out.println("是否存在环" + b);
 
 
-        LinkedList linkedList2 = new LinkedList();
-        linkedList2.addById(hero5);
-        linkedList2.addById(hero3);
-        linkedList2.addById(hero8);
-        linkedList2.addById(hero2);
-        System.out.println("linkedList2的遍历结果");
-        linkedList2.list();
+        HeroNode loopStart = AboutLinkedListQues.findLoopStart(circleList);
+        System.out.println(loopStart.toString());
+
+
+        int res = AboutLinkedListQues.getLoopNodeNumbers(circleList);
+        System.out.println("环中节点的个数为：" + res);
+
+
+//        LinkedList linkedList = new LinkedList();
+//        linkedList.addById(hero4);
+//        linkedList.addById(hero1);
+//        linkedList.addById(hero7);
+//        linkedList.addById(hero6);
+////      linkedList.addById(hero5);
+//        linkedList.list();
+//
+//
+//        LinkedList linkedList2 = new LinkedList();
+//        linkedList2.addById(hero5);
+//        linkedList2.addById(hero3);
+//        linkedList2.addById(hero8);
+//        linkedList2.addById(hero2);
+//        System.out.println("linkedList2的遍历结果");
+//        linkedList2.list();
 
 
 
@@ -43,9 +67,11 @@ public class LinkedListDemo {
 
 //         AboutLinkedListQues.reversePrintLinkedList(linkedList);
 
-        LinkedList li = AboutLinkedListQues.mergerLinkedListByOrder(linkedList, linkedList2);
-        System.out.println("合并后的结果");
-        li.list();
+
+
+//        LinkedList li = AboutLinkedListQues.mergerLinkedListByOrder(linkedList, linkedList2);
+//        System.out.println("合并后的结果");
+//        li.list();
     }
 }
 

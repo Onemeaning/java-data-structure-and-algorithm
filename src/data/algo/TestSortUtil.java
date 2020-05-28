@@ -7,9 +7,10 @@ public class TestSortUtil {
     public static void main(String[] args){
 
 //        int[] array = new int[]{1,3,6,12,27,29,32,88,90,46};
-//        System.out.println(SortUtil.BiSerach(array,38));
+//        System.out.println(SortUtil.BiSerach(array,88));
 
-        int[] array1 = new int[]{1,4,2,8,7,9,11,2,33,4};
+
+//        int[] array1 = new int[]{1,4,2,8,7,9,11,2,33,4};
 
 //        SortUtil.bubbleSort(array1);
 
@@ -17,9 +18,10 @@ public class TestSortUtil {
 
 //        SortUtil.fastSort(array1,0,array1.length-1);
 
-        SortUtil.mergerSort(array1,0,array1.length-1);
+//        SortUtil.mergerSort(array1,0,array1.length-1);
 
-        System.out.println(Arrays.toString(array1));
+//        System.out.println(Arrays.toString(array1));
+
 
     }
 }

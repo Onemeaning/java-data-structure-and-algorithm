@@ -1,5 +1,7 @@
 package data.algo;
 
+import java.util.Arrays;
+
 public class SortUtil {
 
     /**
@@ -20,7 +22,7 @@ public class SortUtil {
             mid = (lowBond + upBond) / 2;
             if (array[mid] == num){
 
-                return mid+1;
+                return mid;
             }
             else if (array[mid] > num){
 
@@ -36,6 +38,30 @@ public class SortUtil {
         return -1;
 
     }
+
+    /**
+     * 二分查找递归版
+     * @param arr 待查找的数组
+     * @param l 左边界
+     * @param r 有边界
+     * @param data 待查找的数据
+     * @return -1：未查找到 找到则返回数组下标
+     */
+    public static int binarySearch(int[] arr, int l, int r, int data) {
+        int mid = (l + r) / 2;
+        if(r < l){
+            return -1;
+        }
+        if(arr[mid] == data){
+            return mid;
+        }
+        if(arr[mid] < data){
+            return binarySearch(arr,mid+1,r,data);
+        }else{
+            return binarySearch(arr,l,mid-1,data);
+        }
+    }
+
 
     /**
      * 冒泡排序，时间复杂度为O(n^2)
@@ -101,6 +127,7 @@ public class SortUtil {
             }
 
             if (start < end){
+
                 array[start] = array[end];
                 start++;
             }
@@ -188,7 +215,7 @@ public class SortUtil {
             tempArr[index++] = array[rightLow++];
         }
 
-
+//        System.out.println(Arrays.toString(tempArr));
         //把临时数组中的数据赋值给原数组
         index = left;
         while (index <= right){
