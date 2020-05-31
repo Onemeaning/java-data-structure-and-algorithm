@@ -3,6 +3,11 @@ package data.structures.graph;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * 这里介绍的图的创建，顶点采用ArrayList保存，
+ * 边采用邻接矩阵的方式存储
+ */
+
 public class Graph {
 
     private ArrayList<String> vertexList; //保存顶点的集合
