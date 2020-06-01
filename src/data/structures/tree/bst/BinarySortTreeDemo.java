@@ -26,8 +26,6 @@ public class BinarySortTreeDemo {
         bst.delNode(10);
 
 
-
-
         System.out.println("删除节点之后的结果");
         bst.inFixOrder();
 
@@ -304,12 +302,8 @@ class Node{
                 return null;
             }
 
-
         }
 
-
-
     }
-
 
 }

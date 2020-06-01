@@ -235,10 +235,10 @@ public class AboutLinkedListQues {
 
             if (slow == fast){
 
-                HeroNode head = circleList.getHead();
+                HeroNode head = circleList.getHead();//
                 HeroNode pre = slow;
 
-                while (head != head){
+                while (head != pre){
                     head = head.next;
                     pre = pre.next;
                 }
