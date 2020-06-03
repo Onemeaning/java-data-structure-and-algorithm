@@ -1,4 +1,4 @@
-package data.algo;
+package data.algo.dp;
 
 import java.util.ArrayList;
 import java.util.List;
