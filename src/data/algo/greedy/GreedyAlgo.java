@@ -1,4 +1,4 @@
-package data.greedy;
+package data.algo.greedy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
