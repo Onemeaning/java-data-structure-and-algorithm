@@ -18,12 +18,11 @@
 
 * #### 最短路径算法（弗洛伊德算法）
 
-=======================================================================================
-
+========================================================================
 ## 1、稀疏数组
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/sparearray.png" 
-height = "400"  alt = "稀疏数组"/>
+height = "400"  alt = "稀疏数组"/></div> <br/><br/>
 
 
 ## 2、队列Queue的相关问题
@@ -199,7 +198,7 @@ height = "400"  alt = "递归"/>
 
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/radixSort.png" 
-height = "400"  alt = "桶排序"/>
+height = "400"  alt = "桶排序"/></div> <br/><br/>
 
 
 ## 8、查找算法
@@ -247,7 +246,7 @@ int mid = left + (right - 1eft) * (findVal - arr[left]) / (arr[right] - arr[1eft
 
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/fibnacciSearch.png" 
-height = "400"  alt = "斐波那契查找"/>
+height = "400"  alt = "斐波那契查找"/></div> <br/><br/>
  
 
 ## 9、树
@@ -342,9 +341,8 @@ this.right=null;并 且就返回(结束递归删除)
 
   将数列{1,3,6,8,10,14 } 构建成-颗二叉树，n+1=7；
 
-  ![image-20200410214932381](C:\Users\Meanlam\OneDrive\java架构师学习之路\JAVA学习笔记\images\plotBinaryTree.png)
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/plotBinaryTree.png" 
-height = "400"  alt = "plotBinaryTree"/>
+height = "400"  alt = "plotBinaryTree"/></div> <br/><br/>
 
   问题分析:
   1) 当我们对上面的二叉树进行中序遍历时，数列为{8,3, 10,1,6, 14}
@@ -364,8 +362,7 @@ height = "400"  alt = "plotBinaryTree"/>
 
 * **思路分析**
 
-![](C:\Users\Meanlam\OneDrive\java架构师学习之路\JAVA学习笔记\images\threadedBinaryTree.png)
-<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/threadedBinaryTree.png" 
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/threadedBinaryTree.png" </div> <br/><br/>
 height = "400"  alt = "线索化二叉树"/>
 
 **说明:当线索化二叉树后，Node节点的属性left 和right ，有如下情况:**
@@ -450,7 +447,7 @@ parent.right = targetNode.right
 **BST不足之处：**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
-height = "400"  alt = "左旋转"/>
+height = "400"  alt = "左旋转"/></div> <br/><br/>
 
 **基本介绍**
 
@@ -465,17 +462,16 @@ height = "400"  alt = "左旋转"/>
 当前节点的右子树的高度与左子树高度之差大于1时候，（右子树高度大，进行左旋转）；
 ~~~
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
-height = "400"  alt = "左旋转"/>
-<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
-height = "400"  alt = "左旋转"/>
+height = "400"  alt = "左旋转"/></div> <br/><br/>
+	
 **右旋**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/右旋转.png" 
-height = "400"  alt = "右旋转"/>
+height = "400"  alt = "右旋转"/></div> <br/><br/>
 **双旋转**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/双旋转.png" 
-height = "400"  alt = "双旋转"/>
+height = "400"  alt = "双旋转"/></div> <br/><br/>
 
 
 #### 9.6多路查找树
@@ -498,7 +494,7 @@ height = "400"  alt = "双旋转"/>
 ~~~
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/2-3树.png" 
-height = "400"  alt = "2-3树"/>
+height = "400"  alt = "2-3树"/></div> <br/><br/>
 
 ##### 3、**B树的基本介绍**
 
@@ -539,7 +535,7 @@ height = "400"  alt = "2-3树"/>
 习Mysql时，经常听到说某种类型的索引是基于B树或者B+树的，如图: .
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B树.png" 
-height = "400"  alt = "B树"/>
+height = "400"  alt = "B树"/></div> <br/><br/>
 
 **B树的说明:** 
 
@@ -556,7 +552,7 @@ height = "400"  alt = "B树"/>
 
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B+树.png" 
-height = "400"  alt = "B+树"/>
+height = "400"  alt = "B+树"/></div> <br/><br/>
 
 **B+树的说明:** 
 
@@ -577,7 +573,7 @@ B*树是B+树的变体，在B+树的非根和非叶子结点再增加指向兄�
 ~~~
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/Bsatr树.png" 
-height = "400"  alt = "Bsatr树"/>
+height = "400"  alt = "Bsatr树"/></div> <br/><br/>
 
 ~~~
 1) B*树定义了非叶子结点关键字个数至少为(2/3)*M， 即块的最低使用率为2/3， 而B+树的块的最低使用率为的1/2。
@@ -601,27 +597,27 @@ height = "400"  alt = "Bsatr树"/>
 **图的举例**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图.png" 
-height = "400"  alt = "图"/>
+height = "400"  alt = "图"/></div> <br/><br/>
 
 
 **图的概念**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的概念.png" 
-height = "400"  alt = "图的概念"/>
+height = "400"  alt = "图的概念"/></div> <br/><br/>
 
 **图的表示：**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接矩阵.png" 
-height = "400"  alt = "邻接矩阵"/>
+height = "400"  alt = "邻接矩阵"/></div> <br/><br/>
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接表.png" 
-height = "400"  alt = "邻接表"/>
+height = "400"  alt = "邻接表"/></div> <br/><br/>
 
 
 #### 10.2图的创建
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的创建.png" 
-height = "400"  alt = "图的创建"/>
+height = "400"  alt = "图的创建"/> </div> <br/><br/>
 
 #### 10.3图的遍历
 
@@ -1316,7 +1312,7 @@ public class GreedyAlgo {
 ~~~
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/生成图.png" 
-height = "400"  alt = "生成图"/>
+height = "400"  alt = "生成图"/></div> <br/><br/>
 
 ##### **普利姆算法的介绍**
 
@@ -1333,7 +1329,7 @@ height = "400"  alt = "生成图"/>
 ~~~
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim算法介绍.png" 
-height = "400"  alt = "prim算法介绍"/>
+height = "400"  alt = "prim算法介绍"/></div> <br/><br/>
 
 **核心代码**
 
@@ -1447,7 +1443,8 @@ class MGraph{
 **问题引入**
 
 <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/公交站问题.png" 
-height = "400"  alt = "公交站问题"/>
+height = "400"  alt = "公交站问题"/></div> <br/><br/>
+
 ~~~
 1) 某城市新增7个站点(A,B,C,D,E,F,G)，现在需要修路把7个站点连通
 2) 各个站点的距离用边线表示(权)，比如A-B距离12公里
@@ -1640,7 +1637,7 @@ class Edge implements Comparable<Edge>{
 | 场景图                                                       | 问题描述                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim.png" 
-  height = "400"  alt = "普利姆"/> | 1) 战争时期，胜利乡有7个村庄(A, B, C,D,E,F,G)，现在有六个邮差，从G点出发，需要分别把邮件分别送到A,B,C,D,E,F六个村庄<br/>2)各个村庄的距离用边线表示(权)，比如A - B距离5公里<br/>3) 间:如何计算出G村庄到其它各个村庄的最短距离?<br/>4)如果从其它 点出发到各个点的最短距离又是多少? |
+  height = "400"  alt = "普利姆"/> </div> <br/><br/> | 1) 战争时期，胜利乡有7个村庄(A, B, C,D,E,F,G)，现在有六个邮差，从G点出发，需要分别把邮件分别送到A,B,C,D,E,F六个村庄<br/>2)各个村庄的距离用边线表示(权)，比如A - B距离5公里<br/>3) 间:如何计算出G村庄到其它各个村庄的最短距离?<br/>4)如果从其它 点出发到各个点的最短距离又是多少? |
 
 
 
@@ -1875,7 +1872,7 @@ height = "400"  alt = "弗洛伊德"/>
 | 问题描述                                                     | 场景图                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1) 胜利乡有7个村庄(A, B,C,D,E,F,G)<br/>2)各个村庄的距离用边线表示(权)，比如A-B距离5公里<br/>3)问: 如何计算出各村庄到其它各村庄的最短距离? | <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim.png" 
-                                                                                               height = "400"  alt = "普利姆"/> style="zoom:70%;" /> |
+                                                                                               height = "400"  alt = "普利姆"/> </div> style="zoom:70%;" /> |
 
 **核心代码**
 
@@ -1992,7 +1989,7 @@ class Graph{
 | 题目描述                                                     | 对应图解                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/马踏棋盘.png" 
-                                                                                                                                                                height = "400"  alt = "马踏棋盘"/> style="zoom:80%;" /> |
+                                                                                                                                                                height = "400"  alt = "马踏棋盘"/></div>  style="zoom:80%;" /> |
 
 
 
