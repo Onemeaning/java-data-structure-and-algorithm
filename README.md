@@ -1,5 +1,3 @@
-
-
 # 															数据结构与算法
 
 ## 几个经典的算法题
@@ -20,12 +18,12 @@
 
 * #### 最短路径算法（弗洛伊德算法）
 
-=============================================================
+=======================================================================================
 
 ## 1、稀疏数组
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/sparearray.png)
-
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/sparearray.png" 
+height = "400"  alt = "稀疏数组"/>
 
 
 ## 2、队列Queue的相关问题
@@ -83,7 +81,9 @@
 
 ### 6、递归（Recursion）
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/recursion.png)
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/recursion.png" 
+height = "400"  alt = "递归"/>
 
 #### **6.1对迷宫问题的讨论**
 
@@ -197,8 +197,9 @@
 4)基数排序是1887年赫尔曼何乐礼发明的。它是这样实现的:将整数按位数切割成不同的数字，然后按每个位数分别比较。
 ~~~
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/radixSort.png)
 
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/radixSort.png" 
+height = "400"  alt = "桶排序"/>
 
 
 ## 8、查找算法
@@ -244,8 +245,9 @@ int mid = left + (right - 1eft) * (findVal - arr[left]) / (arr[right] - arr[1eft
 2)斐波那契数列{1.1.2,3,5,8, 13,21, 34, 55}发现斐波那契数列的两个相邻数的比例，无限接近黄金分割值0.618
 ~~~
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/fibnacciSearch.png)
 
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/fibnacciSearch.png" 
+height = "400"  alt = "斐波那契查找"/>
  
 
 ## 9、树
@@ -340,7 +342,9 @@ this.right=null;并 且就返回(结束递归删除)
 
   将数列{1,3,6,8,10,14 } 构建成-颗二叉树，n+1=7；
 
-  ![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/plotBinaryTree.png)
+  ![image-20200410214932381](C:\Users\Meanlam\OneDrive\java架构师学习之路\JAVA学习笔记\images\plotBinaryTree.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/plotBinaryTree.png" 
+height = "400"  alt = "plotBinaryTree"/>
 
   问题分析:
   1) 当我们对上面的二叉树进行中序遍历时，数列为{8,3, 10,1,6, 14}
@@ -360,7 +364,9 @@ this.right=null;并 且就返回(结束递归删除)
 
 * **思路分析**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/threadedBinaryTree.png)
+![](C:\Users\Meanlam\OneDrive\java架构师学习之路\JAVA学习笔记\images\threadedBinaryTree.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/threadedBinaryTree.png" 
+height = "400"  alt = "线索化二叉树"/>
 
 **说明:当线索化二叉树后，Node节点的属性left 和right ，有如下情况:**
 1) left 指向的是左子树，也可能是指向的前驱节点.比如①节点left 指向的左子树，而0节点的left 指向的
@@ -389,7 +395,7 @@ I
 
 **二叉排序树介绍：**
 二叉排序树: BST: (Binary Sort(Search) Tree),对于二叉排序树的任何一-个非叶子节点，要求左子节点的值比当前节点的值小，右子节点的值比当前节点的值大。
-特别说明:如果有相同的值，可以将该节点放在左子节点或右子节点，比如针对前面的数据(7,3, 10,12,5,1,9)，对应的二叉排序树为:![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/bst.png)
+特别说明:如果有相同的值，可以将该节点放在左子节点或右子节点，比如针对前面的数据(7,3, 10,12,5,1,9)，对应的二叉排序树为:![image-20200427111814240](C:\Users\Meanlam\OneDrivejava架构师学习之路\JAVA学习笔记\images\bst.png)
 
 **二叉排序树的删除**
 二叉排字树的删除情况比较复杂，有下面三种情况需要考虑
@@ -443,7 +449,8 @@ parent.right = targetNode.right
 
 **BST不足之处：**
 
-![]()
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
+height = "400"  alt = "左旋转"/>
 
 **基本介绍**
 
@@ -457,16 +464,19 @@ parent.right = targetNode.right
 ~~~
 当前节点的右子树的高度与左子树高度之差大于1时候，（右子树高度大，进行左旋转）；
 ~~~
-
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png)
-
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
+height = "400"  alt = "左旋转"/>
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/左旋转.png" 
+height = "400"  alt = "左旋转"/>
 **右旋**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/右旋转.png)
-
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/右旋转.png" 
+height = "400"  alt = "右旋转"/>
 **双旋转**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/双旋转.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/双旋转.png" 
+height = "400"  alt = "双旋转"/>
+
 
 #### 9.6多路查找树
 
@@ -487,7 +497,8 @@ parent.right = targetNode.right
 举例说明(下面2-3树就是-颖多叉树)
 ~~~
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/2-3树.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/2-3树.png" 
+height = "400"  alt = "2-3树"/>
 
 ##### 3、**B树的基本介绍**
 
@@ -522,11 +533,13 @@ parent.right = targetNode.right
 ##### 5、B树、B+树、B*树的概念
 
 	B-tree树即B树，B即Balanced,平衡的意思。有人把B-tree翻译成B-树，容易让人产生误解。会以为B-树是一种树，而B树又是另一种树。实际上，B-tree 就是指的B树。
+
 **B树的介绍**
 前面已经介绍了2-3树和2-3-4树，他们就是B树(英语: B-tree 也写成B-树)，这里我们再做-一个说明，我们在学
 习Mysql时，经常听到说某种类型的索引是基于B树或者B+树的，如图: .
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B树.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B树.png" 
+height = "400"  alt = "B树"/>
 
 **B树的说明:** 
 
@@ -541,7 +554,9 @@ parent.right = targetNode.right
 
 **B+树介绍：**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B+树.png)
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/B+树.png" 
+height = "400"  alt = "B+树"/>
 
 **B+树的说明:** 
 
@@ -561,7 +576,8 @@ parent.right = targetNode.right
 B*树是B+树的变体，在B+树的非根和非叶子结点再增加指向兄弟的指针。
 ~~~
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/Bsatr树.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/Bsatr树.png" 
+height = "400"  alt = "Bsatr树"/>
 
 ~~~
 1) B*树定义了非叶子结点关键字个数至少为(2/3)*M， 即块的最低使用率为2/3， 而B+树的块的最低使用率为的1/2。
@@ -584,25 +600,28 @@ B*树是B+树的变体，在B+树的非根和非叶子结点再增加指向兄�
 
 **图的举例**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图.png)
-
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图.png" 
+height = "400"  alt = "图"/>
 
 
 **图的概念**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的概念.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的概念.png" 
+height = "400"  alt = "图的概念"/>
 
 **图的表示：**
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接矩阵.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接矩阵.png" 
+height = "400"  alt = "邻接矩阵"/>
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接表.png)
-
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/邻接表.png" 
+height = "400"  alt = "邻接表"/>
 
 
 #### 10.2图的创建
 
-![](https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的创建.png)
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/图的创建.png" 
+height = "400"  alt = "图的创建"/>
 
 #### 10.3图的遍历
 
@@ -878,4 +897,1282 @@ return(T)
 
 
 #### 11.2动态规划算法
+
+##### 11.2.1 动态规划算法介绍
+
+~~~
+1)动态规划(Dynamic Programming)算法的核心思想是:将大问题划分为小问题进行解决，从而一步步获取最优解的处理算法；
+2)动态规划算法与分治算法类似， 其基本思想也是将待求解问题分解成若干个子问题，先求解子问题，然后从这些子问题的解得到原问题的解；
+3)与分治法不同的是， 适合于用动态规划求解的问题，经分解得到子问题往往不是互相独立的。( 即下一个子阶段的求解是建立在.上一个子阶段的解的基础上，进行进一步的求解)；
+4)动态规划可以通过填表的方式来逐步推进，得到最优解。
+~~~
+
+##### 11.2.2 背包问题
+
+背包问题:有一个背包，容量为4磅，现有如下物品
+
+| 物品 | 重量 | 价格 |
+| ---- | ---- | ---- |
+| 吉他 | 1    | 1500 |
+| 影响 | 4    | 4000 |
+| 电脑 | 3    | 2000 |
+
+1)要求达到的目标为装入的背包的总价值最大，并且重量不超出
+2)要求装入的物品不能重复
+
+**思路分析**
+
+~~~
+●背包问题主要是指一一个给定容量的背包、若千具有一定价值和重量的物品，如何选择物品放入背包使物品的价值最大。其中又分01背包和完全背包(完全背包指的是:每种物品都有无限件可用)
+●这里的问题属于01背包，即每个物品最多放-一个。而无限背包可以转化为01背包。
+
+算法的主要思想，利用动态规划来解决。每次遍历到的第i个物品，根据w[j]和v[i]来确定是否需要将该物品放入背包中。即对于给定的n个物品，设v[i]、w[i]分别为第i个物品的价值和重量，C为背包的容量。再令v[j]i]表示在前i个物品中能够装入容量为j的背包中的最大价值。则我们有下面的结果:|
+
+(1) v[i][0]=v[]i]=0://表示 填入表第一行和第一列是 0
+(2)当w[j>j时: v[i][j]=v[i-1][j] // 当准备加入新增的商品的容量大于当前背包的容量时，就直接使用上一个单元格的装入策略
+(3)当j>=w[i]时: v[i]ij=max{[i-1]i], v[ij+i[-1]j-w[i]}//当准备加入的新增的商品的容量小于等于当前背包的容量,
+//装入的方式:
+v[i-1]Ji]:就是 上- -个单元格的装入的最大值
+v[i]:表示当前商品的价值
+v[i-1][j-w[i] :装入i-1 商品，到剩余空间j-w[i]的最大值
+当j>=w[i时: v[i]i]=max {v[i-1][j]. v[i]+v[i-1][j-w[i]} 
+~~~
+
+**动态规划表**
+
+| 物品 | 0磅  | 1磅  | 2磅  | 3磅  | 4磅  |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|      | 0    | 0    | 0    | 0    | 0    |
+| 吉他 | 0    | 1500 | 1500 | 1500 | 1500 |
+| 音响 | 0    | 1500 | 1500 | 1500 | 3000 |
+| 电脑 | 0    | 1500 | 1500 | 200  | 3500 |
+
+**核心代码实现**
+
+~~~java
+public class KnapscakProblem {
+    
+
+    public static void main(String[] args){
+
+        int[] weight = {1,4,3};
+        int[] val = {1500,3000,2000};
+        int size = 4;//背包的容量
+        int nums = val.length; // 物品的数量
+
+        int[][] dp = new int[nums+1][size+1]; //动态规划最优表，查表就可以知道最优解
+        int[][] paths = new int[nums+1][size+1]; // 保存最优解情况下，添加了那些物品；
+        
+        
+        for (int i = 0; i < size; i++) { //第一列（背包容量为0）始化为0，表示：当背包的容量为0的时候，任何物品都装不下，价值为0；
+            dp[i][0] = 0;
+        }
+
+        for (int j = 0; j < nums; j++) {//第一行（没有物品可选）初始化为0，表示：当没有物品可选的时候，背包容量为任何值，价值为0.
+            dp[0][j] = 0;
+        }
+
+
+        for (int i = 1; i < dp.length; i++) {
+            for (int j = 1; j < dp[i].length; j++) {
+             
+                if (weight[i-1] > j){
+                    dp[i][j] = dp[i-1][j];
+                    
+                }else{
+                    
+//                    dp[i][j] = Math.max(dp[i-1][j],val[i-1] + dp[i-1][j-weight[i-1]]);// 这种方式没法记录，添加了哪些商品；
+
+                    if (dp[i-1][j] < val[i-1] + dp[i-1][j-weight[i-1]]){ //这有这种情况下才是组合加入的；
+
+                        dp[i][j] = val[i-1] + dp[i-1][j-weight[i-1]];
+                        paths[i][j] = 1;
+                    }
+                    else
+                        dp[i][j] = dp[i-1][j];
+
+                }
+            }
+        }
+        
+        
+        //----------------------------------------------------------------------------
+
+        for (int i = 0; i < dp.length; i++) {
+
+            for (int j = 0; j < dp[i].length; j++) {
+                
+                System.out.print(dp[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
+        int i = nums;//行最大下标
+        int j = size;//列最大下标
+
+        while (i > 0 && j > 0){
+
+            if (paths[i][j] == 1){
+
+                System.out.printf("背包中添加的商品编号为：%d \n",i);
+                j = j - weight[i-1];//剩余背包的容量；
+            }
+
+            i--;
+        }     
+    }
+}
+~~~
+
+
+
+##### 11.2.3 KMP字符串匹配算法
+
+**问题引入**
+
+~~~
+1)有一个字符串str1= ""尚硅谷你尚硅尚硅谷你尚硅谷你尚硅你好""，和一个子 串str2=" 尚硅谷你尚硅你"中
+2)现在要判断str1是否含有str2,如果存在，就返回第一次出现的位置，如果没有，则返回-1
+~~~
+
+**暴力匹配算法的实现**
+
+~~~java
+public class ViolenceMatch {
+
+    public static void main(String[] args){
+        String str1 = "dbaisjdaksifovasnfoas";
+        String str2 = "ifova";
+        System.out.println("index = " + violenceMatch(str1,str2));
+    }
+    /**
+     * 暴力匹配算法,判断 str1 中是否包含 str2
+     * @param str1 原始字符串
+     * @param str2 正则字符串
+     * @return 匹配位置的索引 ，找不到则返回-1
+     */
+    public static int violenceMatch(String str1, String str2){
+
+      char[] s1 = str1.toCharArray();
+      char[] s2 = str2.toCharArray();
+
+      int s1Len = s1.length;
+      int s2Len = s2.length;
+
+      int index1 = 0;
+      int index2 = 0;
+
+      while (index1 < s1Len && index2 < s2Len){
+
+          if (s1[index1] == s2[index2]){
+              index1++;
+              index2++;
+
+          }else { // 匹配失败，回溯重新匹配
+
+              index1 = index1 - (index2-1);
+              index2 = 0;
+          }
+      }
+
+      if (index2 == s2Len){
+          return index1 - index2;
+      }
+      else
+          return -1;
+    }
+}
+
+~~~
+
+**KMP 算法介绍**
+
+~~~
+1) KMP是一个解决模式串在文本串是否出现过，如果出现过，最早出现的位置的经典算法
+2) Knuth-Mris-Pratt 字符串查找算法，简称为“KMP算法” ，常用于在-一个文本串S内查找-一个模式串P的出现位置，这个算法由Donald Knuth、Vaughan Pratt、James H. Moris三人于1977年联合发表，故取这3人的姓氏命名此算法
+3) KMP方法算法就利用之前判断过信息，通过一个next数组，保存模式串中前后最长公共子序列的长度，每次回溯时，通过next数组找到，前面匹配过的位置，省去了大量的计算时间；
+4)参考资料: https://www.cnblogs.com/zzuuoo666/p/9028287.html
+~~~
+
+**核心代码实现**
+
+~~~java
+public class KMPMatch {
+
+    public static void main(String[] args){
+
+        String str1 = "BBC ABCDAB ABCDABCDABDE";
+        String str2 = "ABCDABD";
+
+        int[] next = kmpNext(str2);
+        System.out.println("next = " + Arrays.toString(next));
+        
+        System.out.println("index = " + kmpSearch(str1,str2,next));
+    }
+
+    /**
+     * 部分匹配表；
+     * @param des
+     * @return
+     */
+    public static int[] kmpNext(String des){
+
+        int[] next = new int[des.length()];
+        next[0] = 0; // 表示：当只有一个字符的时候，它没有前缀，也没有后缀，此时前缀与后缀的部分匹配情况为0
+        for (int i = 1,j = 0; i < des.length(); i++) {
+            
+            while (j > 0 && des.charAt(i) != des.charAt(j)){
+                j = next[j-1];
+            }
+            if (des.charAt(i) == des.charAt(j)){
+                j++;
+            }
+            next[i] = j;
+        }
+        return next;
+    }
+
+    /**
+     *
+     * @param str1 源字符串
+     * @param str2 模式字符串
+     * @param next 部分匹配表
+     * @return -1 表示没有找到，其它值表示第一次匹配时的下标
+     */
+    public static int kmpSearch(String str1, String str2, int[] next){
+
+        for (int i = 0,j = 0; i < str1.length(); i++) {
+
+            while (j > 0 && str1.charAt(i) != str2.charAt(j)){
+                j = next[j-1];
+            }
+
+            if (str1.charAt(i) == str2.charAt(j)){
+                j++;
+            }
+
+            if (j == str2.length())
+                return i-j +1;
+        }
+
+        return -1;
+    }
+}
+~~~
+
+#### 11.3 贪心算法
+
+##### **应用场景——集合覆盖问题**
+
+~~~
+假设存在下面需要付费的广播台，以及广播台信号可以覆盖的地区。如何选择最少的广播台，让所有的地区都可以接收到信号
+~~~
+
+| 广播台 | 覆盖地区       |
+| ------ | -------------- |
+| K1     | 北京 上海 天津 |
+| K2     | 广州 北京 深圳 |
+| K3     | 成都 上海 杭州 |
+| K4     | 上海 天津      |
+| K5     | 杭州 大连      |
+
+##### **贪心算法介绍**
+
+~~~
+1)贪婪算法(贪心算法)是指在对问题进行求解时，在每一步选择中都采取最好或者最优(即最有利)的选择，从而希望能够导致结果是最好或者最优的算法
+2)贪婪算法所得到的结果不一定 是最优的结果(有时候会是最优解)，但是都是相对近似(接近)最优解的结果
+~~~
+
+**思路分析**
+
+~~~
+如何找出覆盖所有地区的广播台的集合呢，使用穷举法实现,列出每个可能的广播台的集合，这被称为幂集。假设总的有n个广播台，则广播台的组合总共有2^n-1个,假设每秒可以计算10个子集，如图:
+~~~
+
+| 广播台数量 | 子集总数2^n | 需要的时间 |
+| ---------- | ----------- | ---------- |
+| 5          | 32          | 3.2s       |
+| 10         | 1024        | 102.4秒    |
+| 32         | 429496729   | 13.6年     |
+| 100        | 1.26*100^30 | 64x10^23年 |
+
+**贪心算法求解**
+
+~~~
+➢使用贪婪算法，效率高:
+目前并没有 算法可以快速计算得到准备的值，使用贪婪算法，则可以得到非常接i近的解，并且效率高。选择策略上，因为需要覆盖全部地区的最小集合: 堂遍历所有的广播电台，找到一个覆盖了最多未覆盖的地区的电台(此电台可能包含一些已覆盖的地区，但没有关系)
+2)将这个电台加入到一个集合中(比如ArrayList),想办法把该电台覆盖的地区在下次比较时去掉。
+3)重复第1步直到覆盖了全部的地区
+~~~
+
+**核心代码**
+
+~~~java
+public class GreedyAlgo {
+
+    public static void main(String[] args){
+        HashMap<String, HashSet<String>> broadcasts = new HashMap<>();
+        
+        HashSet<String> hashSet1 = new HashSet<>();
+        hashSet1.add("北京");
+        hashSet1.add("上海");
+        hashSet1.add("天津");
+
+        HashSet<String> hashSet2 = new HashSet<>();
+        hashSet2.add("北京");
+        hashSet2.add("广州");
+        hashSet2.add("深圳");
+
+        HashSet<String> hashSet3 = new HashSet<>();
+        hashSet3.add("成都");
+        hashSet3.add("上海");
+        hashSet3.add("杭州");
+
+        HashSet<String> hashSet4 = new HashSet<>();
+        hashSet4.add("上海");
+        hashSet4.add("天津");
+
+        HashSet<String> hashSet5 = new HashSet<>();
+        hashSet5.add("杭州");
+        hashSet5.add("大连");
+
+        broadcasts.put("K1", hashSet1);
+        broadcasts.put("K2", hashSet2);
+        broadcasts.put("K3", hashSet3);
+        broadcasts.put("K4", hashSet4);
+        broadcasts.put("K5", hashSet5);
+
+        
+        HashSet<String> allAreas = new HashSet<>();
+        allAreas.addAll(hashSet1);
+        allAreas.addAll(hashSet2);
+        allAreas.addAll(hashSet3);
+        allAreas.addAll(hashSet4);
+        allAreas.addAll(hashSet5);
+        
+        System.out.println("allAreas = "+allAreas);
+
+
+        ArrayList<String> selects = new ArrayList<>(); //保存选中的结果；
+        
+        String maxKey = ""; // 记录每次循环过后，覆盖区域最多的key
+
+        while (allAreas.size() != 0){
+
+            maxKey = null;
+
+            for(String key : broadcasts.keySet()){
+
+                HashSet<String> broadcastArea = broadcasts.get(key);
+                broadcastArea.retainAll(allAreas);
+
+                if (broadcastArea.size() > 0 && (maxKey == null || broadcastArea.size() > broadcasts.get(maxKey).size())){
+                    maxKey = key;
+                }
+            }
+
+            if (maxKey != null){
+                selects.add(maxKey);
+                allAreas.removeAll(broadcasts.get(maxKey));
+            }
+
+        }
+        
+        System.out.println("selects = " + selects);
+
+    }
+}
+~~~
+
+##### **贪心算法注意事项和细节**
+
+~~~
+(1)贪婪算法所得到的结果不一定 是最优的结果(有时候会是最优解)，但是都是相对近似(接近)最优解的结果
+(2)比如上题的算法选出的是K1, K2,K3, K5，符合覆盖了全部的地区
+(3)但是我们发现K2,K3,K4,K5也可以覆盖全部地区，如果K4的使用成本低于K1,那么我们上题的K1,K2,K3,K5虽然是满足条件，但是并不是最优的.
+~~~
+
+
+
+#### 11.4 普利姆算法
+
+**应用场景——修路问题**
+
+| 问题描述                                                     | 场景图                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1)有胜利乡有7个村庄(A,B,C,D,E,F,G)， 现在需要修路把7个村庄连通<br/>2)各个村庄的距离用边线表示(权)，比如A-B距离5公里<br/>3) 问:如何修路保证各个村庄都能连通，并且总的修建公路总里程最短?<br/>思路:将10条边，连接即可，但是总的里程数不是最小.<br/>**正确的思路，就是尽可能的选择少的路线，并且每条路线最小，保证总里程数最少.** | ![image-20200603170548700](C:\Users\Meanlam\OneDrive\java架构师学习之路\JAVA学习笔记\images\prim.png) |
+
+##### 最小生成树
+
+~~~
+修路问题本质就是就是最小生成树问题，先介绍一下最小生成树(Minimum Cost Spanning Tree),简称 MST.
+1) 给定一个带权的无向连通图,如何选取一棵生成树,使树上所有边上权的总和为最小，这叫最小生成树
+2) N个顶点，一定有N-1条边
+3) 包含全部顶点
+4) N-1条边都在图中
+5) 举例说明(如图:)
+6) 求最小生成树的算法主要是普里姆算法和克鲁斯卡尔算法
+~~~
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/生成图.png" 
+height = "400"  alt = "生成图"/>
+
+##### **普利姆算法的介绍**
+
+~~~
+普利姆(Prim)算法求最小生成树，也就是在包含n个顶点的连通图中，找出只有(n-1)条边包含所有n个顶点的连通子图，也就是所谓的极小连通子图。
+普利姆的算法如下:
+1) 设G=(V,E)是连通网， T=(U,D)是最小生成树，V,U是顶点集合，E,D是边的集合
+2)若从顶点u开始构造最小生成树，则从集合V中取出顶点u放入集合U中，标记项点v的visited[u]=1
+3) 若集合U中顶点ui与集合V_U中的顶点vj之间存在边，则寻找这些边中权值最小的边，但不能构成回路，将.
+顶点vj加入集合U中，将边(ui,vj) 加入集合D中，标记visited[vj]=1
+4) 重复步骤②，直到U与V相等，即所有顶点都被标记为访问过，此时D中有n-1条边
+5)提示: 单独看步骤很难理解，我们通过代码来讲解，比较好理解.
+6) 图解普利姆算法
+~~~
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim算法介绍.png" 
+height = "400"  alt = "prim算法介绍"/>
+
+**核心代码**
+
+~~~java
+public class PrimAlgo {
+
+    public static final int NAN = Integer.MAX_VALUE; // 表示两个节点之间是不连通的；
+    public static void main(String[] args){
+
+        char[] vertexName = new char[]{'A','B','C','D','E','F','G'};
+        int vertexNums = vertexName.length;
+        int[][] weights = new int[][]{
+        {NAN, 5,7,NAN , NAN, NAN,2},
+        {5, NAN, NAN,9, NAN, NAN,3},
+        {7,NAN, NAN , NAN, 8, NAN, NAN},
+        {NAN, 9, NAN, NAN, NAN ,4, NAN},
+        {NAN, NAN, 8, NAN,NAN,5,4},
+        {NAN, NAN, NAN,4, 5, NAN,6},
+        {2,3, NAN, NAN,4,6, NAN},};
+
+        MGraph graph = new MGraph(vertexNums);
+
+        MSTree msTree = new MSTree();
+        msTree.createMsTree(graph, vertexNums, vertexName, weights);
+        msTree.showWeights(graph);
+
+        msTree.prim(graph, 3);
+
+    }
+}
+
+
+
+class MSTree{
+
+    public void createMsTree(MGraph graph, int vertexNums, char[] vertexName, int[][] weights){
+
+        for (int i = 0; i < vertexNums; i++) {
+            graph.vertexName[i] = vertexName[i];
+            for (int j = 0; j < vertexNums; j++) {
+                graph.weight[i][j] = weights[i][j];
+            }
+        }
+    }
+
+    public void showWeights(MGraph graph){
+
+        for (int[] link : graph.weight){
+            
+            System.out.println(Arrays.toString(link));
+        }
+
+    }
+
+    /**
+     *
+     * @param graph 原始图
+     * @param index 初始访问的节点索引
+     */
+    public void prim(MGraph graph, int index){
+
+        boolean[] visited = new boolean[graph.vertexNums];
+        visited[index] = true;
+
+        int minWeight = Integer.MAX_VALUE;//路径不通
+        int preIndex = -1; // 表示访问过的节点
+        int postIndex = -1; // 表示还没有访问过的节点
+
+        int mileage = 0;
+
+        for (int k = 1; k < graph.vertexNums; k++) {
+
+            for (int i = 0; i < graph.vertexNums; i++) {
+                for (int j = 0; j < graph.vertexNums; j++) {
+                    //找到当前节点到其他未访问过的节点之间权值最小的那个节点
+                   if (visited[i] && !visited[j] && graph.weight[i][j] < minWeight){
+                       minWeight = graph.weight[i][j];
+                       preIndex = i;
+                       postIndex = j;
+                   }
+                }
+            }
+
+            System.out.println("Edge <" + graph.vertexName[preIndex] + "————" + graph.vertexName[postIndex] + "> " + minWeight);
+            mileage += minWeight;
+
+            visited[postIndex] = true;
+            minWeight = Integer.MAX_VALUE;
+
+        }
+        System.out.println("总里程为： "+mileage);
+
+    }
+}
+
+class MGraph{
+    int vertexNums; // 节点的个数
+    char[] vertexName; // 节点的名字
+    int[][] weight; //邻接矩阵，表示修路的权重 
+
+    public MGraph(int vertexNums) {
+        this.vertexNums = vertexNums;
+        vertexName = new char[vertexNums];
+        weight = new int[vertexNums][vertexNums];
+    }
+}
+~~~
+
+##### 克鲁斯卡尔算法的介绍
+
+**问题引入**
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/公交站问题.png" 
+height = "400"  alt = "公交站问题"/>
+~~~
+1) 某城市新增7个站点(A,B,C,D,E,F,G)，现在需要修路把7个站点连通
+2) 各个站点的距离用边线表示(权)，比如A-B距离12公里
+3) 问:如何修路保证各个站点都能连通，并且总的修建公路总里程最短
+~~~
+
+**克鲁斯卡尔算法的基本介绍**
+
+~~~
+1)克鲁斯卡尔(Kruskal)算法， 是用来求加权连通图的最小生成树的算法。
+2)基本思想:按照权值从小到大的顺序选择n-1条边，并保证这n-1条边不构成回路
+3) 具体做法:首先构造一个只含n个顶点的森林，然后依权值从小到大从连通网中选择边加入到森林中，并使森林中不产生回路，直至森林变成一棵树为止
+~~~
+
+**核心代码**
+
+~~~java
+package data.algo.mst;
+
+import java.util.*;
+
+/**
+ * @author meanlam
+ * @date 2020/6/6-11:04
+ */
+public class KrusKalAlgo {
+
+    private int edgeNum;
+    private char[] vertexs;
+    private int[][] matrix;
+
+    private static final int INF = Integer.MAX_VALUE;
+
+    public KrusKalAlgo(char[] vertexs, int[][] matrix) {
+        this.vertexs = vertexs;
+        this.matrix = matrix;
+
+        for (int i = 0; i < vertexs.length; i++) {
+            for (int j = i+1; j < vertexs.length; j++) {
+                if (matrix[i][j] != INF)
+                    edgeNum++;
+            }
+        }
+    }
+
+    public void print(){
+        System.out.println("邻接矩阵为：");
+        for (int[] link : matrix){
+            for (int i = 0; i < link.length; i++) {
+                if (link[i] == INF)
+                    System.out.printf("%5s","INF");
+                else
+                    System.out.printf("%5d",link[i]);
+            }
+            System.out.println();
+
+        }
+    }
+
+    public List<Edge> createEdges(){
+        List<Edge> list = new ArrayList<>();
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = i+1; j < matrix[i].length; j++) {
+
+                if (matrix[i][j] != INF)
+                    list.add(new Edge(vertexs[i],vertexs[j],matrix[i][j]));
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 获取 index 索引对应的顶点的终点；
+     * @param ends
+     * @param index
+     * @return
+     */
+    private int getEnd(int[] ends, int index){
+
+        while (ends[index] != 0){
+            index = ends[index];
+        }
+
+        return index;
+    }
+
+    private Map<Character,Integer> createMap(){
+
+        Map<Character,Integer> maps = new HashMap<>();
+        for (int i = 0; i < vertexs.length; i++) {
+            maps.put(vertexs[i],i);
+        }
+
+        return maps;
+    }
+
+    public List<Edge> kruskal(){
+
+        int[] ends = new int[edgeNum];//保存已经存在的节点，用于检测已有最小生成树中是否会形成环
+        List<Edge> mstResult = new ArrayList<>();
+        List<Edge> edges = createEdges();
+        Collections.sort(edges);
+        Map<Character, Integer> posMap = createMap();
+
+        for (Edge edge : edges){
+
+            int start_index = posMap.get(edge.start);
+            int end_index = posMap.get(edge.end);
+
+            int ends_start = getEnd(ends,start_index);
+            int ends_end = getEnd(ends,end_index);
+
+            if (ends_start != ends_end){
+                mstResult.add(edge);
+                ends[ends_start] = ends_end;
+            }
+        }
+
+        return mstResult;
+    }
+
+
+
+    public static void main(String[] args){
+
+    char[] vertex = {'A','B','C','D','E','F','G'};
+    int[][] matrix = {
+               /*A*//*B*//*C*//*D*//*E*//*F*//*G*/
+        /*A*/ { 0,12, INF, INF, INF, 16, 14},
+        /*B*/ { 12, 0, 10,INF, INF, 7, INF},
+        /*C*/ { INF, 10, 0, 3, 5, 6, INF},
+        /*D*/ { INF, INF, 3, 0, 4, INF, INF},
+        /*E*/ { INF, INF, 5, 4, 0, 2, 8},
+        /*F*/ { 16,   7, 6, INF, 2, 0, 9},
+        /*G*/ { 14, INF, INF, INF, 8, 9, 0}};
+
+        KrusKalAlgo krusKal = new KrusKalAlgo(vertex, matrix);
+        krusKal.print();
+
+
+        List<Edge> lists = krusKal.createEdges();
+        System.out.println("原始边：");
+        for (Edge edge : lists){
+            System.out.println(edge);
+        }
+
+        System.out.println("排序后的边：");
+        Collections.sort(lists);
+        for (Edge edge : lists){
+            System.out.println(edge);
+        }
+
+        System.out.println("最小生成树：");
+        List<Edge> mst = krusKal.kruskal();
+        for (Edge edge : mst){
+            System.out.println(edge);
+        }
+    }
+}
+
+class Edge implements Comparable<Edge>{
+
+    char start; // 一条边的左顶点
+    char end;   // 一条边的右顶点
+    int weight; // 边上面的权重
+
+    public Edge(char start, char end, int weight) {
+        this.start = start;
+        this.end = end;
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "Edge<" + start + "—————— + " + end + "> weight = " + weight ;
+    }
+
+
+    @Override
+    public int compareTo(Edge o) {
+        return weight - o.weight;
+    }
+}
+~~~
+
+#### 11.5迪杰斯特拉算法
+
+**应用场景**
+
+| 场景图                                                       | 问题描述                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim.png" 
+  height = "400"  alt = "普利姆"/> | 1) 战争时期，胜利乡有7个村庄(A, B, C,D,E,F,G)，现在有六个邮差，从G点出发，需要分别把邮件分别送到A,B,C,D,E,F六个村庄<br/>2)各个村庄的距离用边线表示(权)，比如A - B距离5公里<br/>3) 间:如何计算出G村庄到其它各个村庄的最短距离?<br/>4)如果从其它 点出发到各个点的最短距离又是多少? |
+
+
+
+**迪杰斯特拉(Dijkstra)算法介绍**
+
+~~~
+迪杰斯特拉(Dijkstra)算法是典型最短路径算法，用于计算一个结点到其他结点的最短路径。它的主要特点是以
+起始点为中心向外层层扩展(广度优先搜索思想)，直到扩展到终点为止。
+~~~
+
+**迪杰斯特拉(Dijkstra)算法过程**
+
+~~~
+设置出发项点为v，顶点集合V{v1,v2,vi..}, v到V中各顶点的距离构成距离集合Dis,Dis{d1,d2,di..}, Dis集合记录着v到图中各顶点的距离(到自身可以看作0，v到vi距离对应为di);
+1) 从Dis中选择值最小的di并移出Dis集合，同时移出V集合中对应的顶点vi,此时的v到vi即为最短路径;
+2) 更新Dis集合， 更新规则为:比较v到V集合中顶点的距离值，与v通过vi到V集 合中顶点的距离值，保留值较小的一个(同时也应该更新顶点的前驱节点为vi,表明是通过vi到达的);
+3)重复执行两步骤，直到最短路径顶点为目标顶点即可结束;
+~~~
+
+**迪杰斯特拉(Dijkstra)算法图解**
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/迪杰斯特拉.png" 
+height = "400"  alt = "迪杰斯特拉"/>
+
+**核心代码**
+
+~~~java
+package data.algo.dijkstra;
+
+import javax.xml.bind.Binder;
+import java.util.Arrays;
+
+/**
+ * @author meanlam
+ * @date 2020/6/8-16:10
+ */
+public class DijkstraAlo {
+
+    private static final int INF = Integer.MAX_VALUE/2;
+    public static void main(String[] args){
+
+        char[] vertex = {'A','B','C','D','E','F','G'};
+        int[][] matrix = new int[][]{
+                {INF, 5,7,INF , INF, INF,2},
+                {5, INF, INF,9, INF, INF,3},
+                {7,INF, INF , INF, 8, INF, INF},
+                {INF, 9, INF, INF, INF ,4, INF},
+                {INF, INF, 8, INF,INF,5,4},
+                {INF, INF, INF,4, 5, INF,6},
+                {2,3, INF, INF,4,6, INF},};
+
+        Graph graph = new Graph(vertex, matrix);
+        graph.showGraph();
+        graph.dijkstra(6);
+        graph.showResult(6);
+    }
+}
+
+class VisitedVertex{
+
+    private int[] already_vi; // 记录各个节点是否被访问过，1表示访问过了，0表示还没有被访问过,会动态的更新
+    private int[] pre_vi; // 每个下标对应的值为前一个节点的下标，会动态的更新
+    private int[] dis; // 记录出发节点到其他各个顶点的距离，会动态的更新；
+    private static final int INF = Integer.MAX_VALUE/2;
+    /**
+     * 初始化各个数组
+     * @param len 节点的个数
+     * @param index 开始访问的节点的下标
+     */
+    public VisitedVertex(int len, int index) {
+
+        already_vi = new int[len];
+        pre_vi = new int[len];
+        dis = new int[len];
+        
+        already_vi[index] = 1;
+        Arrays.fill(dis, INF);
+        dis[index] = 0;
+    }
+
+    /**
+     * 判断 index下标的所对应的节点是否被访问过了
+     * @param index
+     * @return
+     */
+    public boolean in(int index){
+        return already_vi[index] == 1;
+    }
+
+    /**
+     * 更新出发节点到index节点的距离
+     * @param index 目标节点的索引
+     * @param len 更新的距离
+     */
+    public void updateDis(int index, int len){
+        dis[index] = len;
+    }
+
+    /**
+     * 更新节点pre的前驱节点为index结果
+     * @param pre
+     * @param index
+     */
+    public void updatePre(int pre, int index){
+        pre_vi[pre] = index;
+    }
+
+    /**
+     * 获取节点到index节点的距离
+     * @param index
+     * @return
+     */
+    public int getDis(int index){
+        return dis[index];
+    }
+
+    /**
+     * 继续选择并返回新的访问节点，比如这里的G访问结束之后，就是A点作为访问顶点（注意不是出发顶点）
+     * 其实就是在找没有访问过的节点中距离最小的那个节点作为下次访问的节点
+     * @return
+     */
+    public int updateAlreadyVisited(){
+
+        int min = INF, index = 0;
+        for (int i = 0; i < already_vi.length; i++) {
+
+            if (!in(i) && dis[i] < min){
+                min = dis[i];
+                index = i;
+            }
+        }
+        already_vi[index] = 1;
+        return index;
+    }
+
+    public void showFinalDis(int index){
+        char[] vertex = {'A','B','C','D','E','F','G'};
+        System.out.println("===========迪杰斯特拉最短路径结果==========");
+        for (int i = 0; i < dis.length; i++) {
+            System.out.println(vertex[index] + "————>"+ vertex[i] + " : " + dis[i]);
+        }
+    }
+
+}
+
+class Graph{
+
+    char[] vertex;
+    int[][] matrix;
+    VisitedVertex vv;
+    private static final int INF = Integer.MAX_VALUE/2;
+    public Graph(char[] vertex, int[][] matrix) {
+        this.vertex = vertex;
+        this.matrix = matrix;
+    }
+
+    public void showGraph(){
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+
+                if (matrix[i][j] == INF)
+                    System.out.printf("%5s","INF");
+                else
+                    System.out.printf("%5d",matrix[i][j]);
+            }
+            System.out.println();
+        }
+
+    }
+
+    public void dijkstra(int index){
+        vv = new VisitedVertex(vertex.length, index);
+        update(index);
+
+        for (int i = 1; i < vertex.length ; i++) {
+            index = vv.updateAlreadyVisited();
+            update(index);
+        }
+
+    }
+
+    public void showResult(int index){
+        vv.showFinalDis(index);
+    }
+
+    /**
+     * 一次遍历的更新
+     */
+    private void update(int index){
+        int len = 0;
+        for (int i = 0; i < matrix[index].length; i++) {
+
+            // 出发顶点到index 节点的距离 + index节点到 i 节点的距离之和 （弯路）
+            len = vv.getDis(index) + matrix[index][i];
+
+            //当 i 这个节点还没有被访问过，且 len 小于出发顶点直接到i这个顶点的距离（直路）时，需要更新
+            if (!vv.in(i) && len < vv.getDis(i)){
+
+                vv.updateDis(i, len);
+                vv.updatePre(i, index);
+            }
+        }
+    }
+}
+~~~
+
+#### 11.6弗洛伊德算法
+
+**弗洛伊德（Floyd）算法介绍**
+
+~~~
+1)和Dijkstra算法一样，弗洛伊德(Floyd)算法也是一种用于寻找给定的加权图中顶点间最短路径的算法。该算法名称以创始人之一、1978年图灵奖获得者、斯坦福大学计算机科学系教授罗伯特弗洛伊德命名。
+2)弗洛伊德算法(Floyd)计算图中各个顶点之间的最短路径。
+3)迪杰斯特拉算法用于计算图中某--个顶点到其他顶点的最短路径。
+4)弗洛伊德算法yS迪杰斯特拉算法:迪杰斯特拉算法通过选定的被访问顶点，求出从出发访问顶点到其他顶点的最短路径;弗洛伊德算法中每一个顶点都是出发访问点，所以需要将每一个顶点看做被访问顶点，求出从每一个顶点到其他顶点的最短径。
+~~~
+
+**弗洛伊德(Floyd)算法图解分析**
+
+~~~
+1)设置顶点vi到顶点vk的最短路径己知为Lik，顶点vk到vj的最短路径已知为Lkj,顶点vi到vj的路径为Lij，则vi到vj的最短 路径为: min(Lik(Lj),Lj), vk的取值为图中所有顶点，则可获得vi到vj的最短路径
+2)至于vi到vk的最短路径Lik或者vk到vj的最短路径Lkj，是以同样的方式获得
+3)弗洛伊德(Floyd)算法图解分析举例说明
+~~~
+
+<div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/floyd.png" 
+height = "400"  alt = "弗洛伊德"/>
+
+**算法应用——最短路径**
+
+| 问题描述                                                     | 场景图                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1) 胜利乡有7个村庄(A, B,C,D,E,F,G)<br/>2)各个村庄的距离用边线表示(权)，比如A-B距离5公里<br/>3)问: 如何计算出各村庄到其它各村庄的最短距离? | <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/prim.png" 
+                                                                                               height = "400"  alt = "普利姆"/> style="zoom:70%;" /> |
+
+**核心代码**
+
+~~~java
+package data.algo.floyd;
+
+import java.util.Arrays;
+
+/**
+ * @author meanlam
+ * @date 2020/6/9-9:48
+ */
+public class FloydAlgo {
+
+    private static final int INF = Integer.MAX_VALUE/2;
+    public static void main(String[] args){
+
+        char[] vertex = {'A','B','C','D','E','F','G'};
+        int[][] matrix = new int[][]{
+                {0, 5,7,INF , INF, INF,2},
+                {5, 0, INF,9, INF, INF,3},
+                {7,INF, 0 , INF, 8, INF, INF},
+                {INF, 9, INF, 0, INF ,4, INF},
+                {INF, INF, 8, INF,0,5,4},
+                {INF, INF, INF,4, 5, 0,6},
+                {2,3, INF, INF,4,6, 0},};
+
+        Graph graph = new Graph(vertex.length, vertex, matrix);
+        graph.floyd();
+        graph.show();
+    }
+}
+
+class Graph{
+
+    private char[] vertex;
+    private int[][] dis; // 存放节点之间的最短路径
+    private int[][] pre; // 存放节点的前驱节点
+    private static final int INF = Integer.MAX_VALUE/2;
+
+    public Graph(int len, char[] vertex, int[][] dis) {
+        this.vertex = vertex;
+        this.dis = dis;
+
+        pre = new int[len][len];
+        for (int i = 0; i < len; i++) {
+            Arrays.fill(pre[i],i);
+        }
+    }
+
+    public void floyd(){
+
+        int len = 0;
+        for (int k = 0; k < vertex.length; k++) { //对中间节点遍历[A - G]
+
+            for (int i = 0; i < vertex.length; i++) { // 出发节点的遍历[A - G]
+                for (int j = 0; j < vertex.length; j++) { // 到达目标节点的遍历[A - G]
+
+                    len = dis[i][k] + dis[k][j];
+                    if (len < dis[i][j]){
+                        dis[i][j] = len;
+                        pre[i][j] = pre[k][j];
+                    }
+
+                }
+            }
+        }
+    }
+
+
+    public void show(){
+
+        System.out.println("距离表");
+        for (int i = 0; i < vertex.length; i++) {
+
+            for (int j = 0; j < vertex.length; j++) {
+
+                if (dis[i][j] == INF)
+                {
+                    System.out.printf("<%10s>",vertex[i] +"——"+ vertex[j]+" INF");
+                    System.out.print("  ");
+                }
+
+                else{
+                    System.out.printf("<%10s>",vertex[i]+"——"+ vertex[j]+ " "+ dis[i][j]);
+                    System.out.print("  ");
+                }
+
+
+            }
+            System.out.println();
+
+        }
+
+        System.out.println("----------------------------------");
+        System.out.println("前驱表：");
+        for (int i = 0; i < vertex.length; i++) {
+
+            for (int j = 0; j < vertex.length; j++) {
+
+              System.out.print(vertex[pre[i][j]] + " ");
+            }
+            System.out.println();
+
+        }
+    }
+}
+~~~
+
+#### 11.7骑士周游问题——马踏棋盘算法
+
+**1、算法引入**
+
+| 题目描述                                                     | 对应图解                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align=center> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/tree/master/pictures/马踏棋盘.png" 
+                                                                                                                                                                height = "400"  alt = "马踏棋盘"/> style="zoom:80%;" /> |
+
+
+
+**2、算法的思路**
+
+~~~
+1)马踏棋盘问题(骑士周游问题)实际上是图的深度优先搜索(DFS)的应用。
+2)如果使用回溯(就是深度优先搜索)来解决，假如马儿踏了53个点，如图:走到了第53个，坐标中(1,0) ，发现已经走到尽头，没办法，那就只能，回退了，查看其他的路径，就在棋盘上不停的回溯。
+【思路】
+1.创建棋盘chessBoard,是一个二维数组
+2.将当前位置设置为已经访问，然后根据当前位置,计算马儿还能走哪些位置,并放入到一个集合中(ArrayList),最多有8个位置，每走-步，就使用step+1
+3.遍历Arraylist中存放的所有位置,看看哪个可以走通，如果走通，就继续，走不通，就回溯.
+4.判断马儿是否完成了任务，使用step和应该走的步数比较，如果没有达到数量，则表示没有完成任务，将整个棋盘置o
+注意:马儿不同的走法(策略)，会得到不同的结果，效率也会有影响(优化)
+//创建一个Point
+Point p1 = new Point();
+if((p1.x= curPoint.x - 2) >= 0 && (p1.y= curPoint.y-1)>= 0){
+ps.add(new Point(1); .
+}
+-----------------------------------------------------------------------------------------
+3) 分析第一种方式的问题，并使用贪心算法(greedyalgorithm)进行优化。解决马踏棋盘问题.
+4)使用前面的游戏来验证算法是否正确。
+~~~
+
+**贪心算法对原来的算法优化**
+
+~~~
+1、我们获取当前位置，可以走的下一个位置的集合
+//获取当前位置可以走的下一个位置的集合
+ArrayList<Point> ps = next(new Point(column, row));
+2、我们需要对fps中所有的oint的下-步的所有集合的数目,进行非递减排序就ok,
+9, 7, 6, 5, 3,2, 1//递影排序
+1, 2, 3, 43.6, 10,//递增推序
+1,2,2, 2,3,3,4,5, 6//非递视
+9, 7, 6, 6,6,5, 5,3, 2, 1 //非递增
+~~~
+
+**核心代码实现**
+
+~~~java
+package data.algo.greedy;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class HorseChessboard {
+
+    private static int X;//棋盘的行数
+    private static int Y; //棋盘的列数；
+
+    //表示棋盘的某个位置是否被访问
+    private static boolean[][] visited;
+
+    //表示访问是否完成了
+    private static boolean finished;
+
+
+    public static void main(String[] args){
+
+        X = 6;
+        Y = 6;
+        visited = new boolean[X][Y];
+        int[][] chessboard = new int[X][Y];
+
+        //初始位置
+        int priX = 2;
+        int priY = 4;
+
+        System.out.println("马踏棋盘算法开始运行……");
+        long start = System.currentTimeMillis();
+        travesalChessboard(chessboard,priX-1,priY-1,1);
+
+        for(int[] row : chessboard){
+            for (int step : row){
+                System.out.print(step +"\t");
+            }
+            System.out.println();
+        }
+
+        System.out.println("总共耗时为：" + (System.currentTimeMillis() - start) + "ms" );
+
+    }
+
+    /**
+     * 马踏棋盘算法：
+     * @param chess 棋盘，用于保存走的步骤
+     * @param x 初始点的行数
+     * @param y 初始点的列数
+     * @param step 走的步数
+     */
+    public static void travesalChessboard(int[][] chess,int x, int y, int step){
+
+        chess[x][y] = step;
+        visited[x][y] = true;
+        List<Point> ps = next(new Point(x, y));
+        sort(ps);
+        while (!ps.isEmpty()){
+
+            Point point = ps.remove(0);
+            if (!visited[point.x][point.y]){
+                travesalChessboard(chess,point.x,point.y,step+1);
+            }
+        }
+
+        // 如果走的步数没有达到棋盘的数量，说明没有走完，
+        if (step < X*Y && !finished){
+            chess[x][y] = 0;  //回溯，表示该点往下是走不通的；
+            visited[x][y] = false;
+        }
+        else {
+            finished = true;
+        }
+    }
+
+    /**
+     * 获取每一个点，接下来可以走的所有的点的位置；
+     * @param cur
+     * @return
+     */
+    public static List<Point> next(Point cur){
+
+        List<Point> ps = new ArrayList<>();
+        Point p1 = new Point();
+
+        if ((p1.x = cur.x - 2) >= 0 && (p1.y = cur.y -1) >=0 ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x - 1) >= 0 && (p1.y = cur.y -2) >=0 ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x + 1) < X && (p1.y = cur.y -2) >=0 ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x + 2) < X && (p1.y = cur.y -1) >=0 ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x + 2) < X && (p1.y = cur.y +1) < Y ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x + 1) < X && (p1.y = cur.y +2) < Y ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x - 1) >= 0 && (p1.y = cur.y +2) < Y ){
+            ps.add(new Point(p1));
+        }
+
+        if ((p1.x = cur.x - 2) >= 0 && (p1.y = cur.y + 1) < Y ){
+            ps.add(new Point(p1));
+        }
+
+        return ps;
+    }
+
+    //对下一步要走的每一个点进行排序，排序原则，每个点下一步要走的点的个数越多，回溯的可能性越大，
+    //因此按照要走点的个数从少到多进行排序
+    public static void sort(List<Point> ps){
+        ps.sort(new Comparator<Point>() {
+            @Override
+            public int compare(Point o1, Point o2) {
+                int c1 = next(o1).size();
+                int c2 = next(o2).size();
+
+                if (c1 < c2){
+                    return -1;
+                }else if (c1 == c2){
+                    return 0;
+                }
+                else
+                    return 1;
+            }
+        });
+    }
+}
+~~~
 

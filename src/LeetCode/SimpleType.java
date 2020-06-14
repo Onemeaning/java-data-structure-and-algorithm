@@ -41,8 +41,57 @@ public class SimpleType {
 
 //        System.out.println(climbStairs(3));
 
-        System.out.println(maxProfit(new int[] {7,1,5,3,6,4}));
+//        System.out.println(maxProfit(new int[] {7,1,5,3,6,4}));
+
+
+        System.out.println(getIndex(new int[] {1,2,3,1}));
+        System.out.println(getIndex(new int[] {3,4,5,6,1,2}));
+        System.out.println(getIndex(new int[] {3,3,3,1,2,3}));
+        System.out.println(getIndex(new int[] {5,6,1,2,3,4}));
+        System.out.println(getIndex(new int[] {6,1,2,3,4,5}));
     }
+
+
+    /**
+     * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
+     * 输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。
+     * 例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
+     * NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
+     * @param arr
+     * @return
+     */
+    public static int getIndex(int[] arr){
+
+        int temp = arr[0];// 因为是递增，所以arr[0]是第一段中最小的，找到不比它大的值就OK
+        int left = 0;
+        int right = arr.length-1;
+        int mid;
+
+        while (left <= right){
+
+            mid = (left + right)/2;
+
+            if (arr[mid] == temp ){
+
+                return temp;
+            }
+
+             else if (arr[mid] > temp ){
+
+                left = mid+1 ;
+            }
+
+            else if (arr[mid] < temp ){
+
+                right = mid-1;
+                temp = arr[mid];
+            }
+        }
+
+        return temp;
+
+    }
+
 
     /**
      * 回文数
@@ -950,7 +999,7 @@ public class SimpleType {
        return root;
     }
 
-    private static TreeNode helper(int[] nums,int left,int right){
+    private static TreeNode helper(int[] nums, int left, int right){
 
         if (left > right) return null;
         int mid = (left + right) / 2;
@@ -1134,12 +1183,10 @@ class ListNode {
 }
 
 
- // Definition for a binary tree node.
+//  Definition for a binary tree node.
 class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
       TreeNode(int x) { val = x; }
-
-
   }
