@@ -1,4 +1,4 @@
-package data.structures.sort;
+package data.algo.sort;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;

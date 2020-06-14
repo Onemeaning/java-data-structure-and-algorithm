@@ -1,4 +1,4 @@
-package data.structures.recursion;
+package data.algo.recursion;
 
 /**
  * 八皇后问题的求解方案，采用递归的方式进行求解；

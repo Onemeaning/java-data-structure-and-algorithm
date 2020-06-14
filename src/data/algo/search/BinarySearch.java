@@ -1,4 +1,4 @@
-package data.structures.search;
+package data.algo.search;
 
 import java.util.Arrays;
 

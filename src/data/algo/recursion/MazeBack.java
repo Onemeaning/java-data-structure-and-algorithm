@@ -1,4 +1,4 @@
-package data.structures.recursion;
+package data.algo.recursion;
 
 /**
  * 迷宫回溯问题，(给定一个二维数组代表的迷宫，目标是找到一个合适的路径达到目的地)

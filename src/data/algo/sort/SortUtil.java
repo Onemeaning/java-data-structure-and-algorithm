@@ -1,4 +1,4 @@
-package data.algo;
+package data.algo.sort;
 
 import java.util.Arrays;
 
