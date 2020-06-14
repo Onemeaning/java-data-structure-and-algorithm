@@ -40,7 +40,9 @@
 
 ### 5、单向循环列表（丢手帕问题）
 
-**Josephu问题为:**设编号为1, 2, .n的n个人围坐一圈， 约定编号为k (1<=k<=n) 的人从1开始报数，数到m的那个人出列，它的下一位又从1开始报数，数到m的那个人又出列，依次类推，直到所有人出列为止，由此产生-一个出队编号的序列。n=5,即有5个人；k=1,从第一一个人开始报数；m=2,数2下；
+**Josephu问题为:**
+
+设编号为1, 2, .n的n个人围坐一圈， 约定编号为k (1<=k<=n) 的人从1开始报数，数到m的那个人出列，它的下一位又从1开始报数，数到m的那个人又出列，依次类推，直到所有人出列为止，由此产生-一个出队编号的序列。n=5,即有5个人；k=1,从第一一个人开始报数；m=2,数2下；
 
 答案：2->4->1->5->3
 
@@ -81,8 +83,7 @@
 ### 6、递归（Recursion）
 
 
-<div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/recursion.png" 
- alt = "递归"/>
+<div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/recursion.png" alt = "递归"/> </div> <br/><br/>
 
 #### **6.1对迷宫问题的讨论**
 
