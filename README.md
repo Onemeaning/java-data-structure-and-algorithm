@@ -1,4 +1,4 @@
-# 															数据结构与算法
+# 数据结构与算法
 
 ## 几个经典的算法题
 
@@ -1889,7 +1889,7 @@ class Graph{
 
 | 问题描述                                                     | 场景图                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1) 胜利乡有7个村庄(A, B,C,D,E,F,G)<br/>2)各个村庄的距离用边线表示(权)，比如A-B距离5公里<br/>3)问: 如何计算出各村庄到其它各村庄的最短距离? | <div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/prim.png"/> </div> style="zoom:70%;" /> |
+| 1) 胜利乡有7个村庄(A, B,C,D,E,F,G)<br/>2)各个村庄的距离用边线表示(权)，比如A-B距离5公里<br/>3)问: 如何计算出各村庄到其它各村庄的最短距离? | <div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/prim.png"/> </div> |
 
 **核心代码**
 
@@ -2005,7 +2005,7 @@ class Graph{
 
 | 题目描述                                                     | 对应图解                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/马踏棋盘.png" </div>  style="zoom:80%;" /> |
+| 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/马踏棋盘.png" </div>|
 
 
 
