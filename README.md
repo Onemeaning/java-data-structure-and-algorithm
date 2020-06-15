@@ -2005,8 +2005,7 @@ class Graph{
 
 | 题目描述                                                     | 对应图解                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align=left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/马踏棋盘.png" </div>|
-
+| 1)马踏棋盘算法也被称为骑士周游问题<br/>2)将马随机放在国际象棋的8X8棋盘Board[0~ 7][0~7]的某个方格中，马按走棋规则(马走日字)进行移动。要求每个方格只进入一次，走遍棋盘上全部64个方格<br/>3)游戏演示:http://www.4399.com/flash/1462672.html | <div align = left> <img src="https://github.com/Onemeaning/java-data-structure-and-algorithm/blob/master/pictures/马踏棋盘.png/>" </div>|
 
 
 **2、算法的思路**
